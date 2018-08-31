@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - LaunchDarkly",
+	"description": "This is a repository of launchdarkly APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/launchdarkly.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-30",
+	"url": "http://launchdarkly.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "LaunchDarkly",
+			"x-api-slug": "launchdarkly",
+			"description": "Our vision is to eliminate risk for developers and operations teams from the software development cycle. As companies transition to a world built on software, there is an increasing requirement to move quickly&mdash;but that often comes with the desire to maintain control. LaunchDarkly is the feature management platform that enables dev and ops teams to control the whole feature lifecycle, from concept to launch to value.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/21652-launchdarkly-com.jpg",
+			"humanURL": "http://www.launchdarkly.com",
+			"baseURL": "https://app.launchdarkly.com//api/v2",
+			"tags": "LaunchDarkly",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/launchdarkly/master/_listings/launchdarkly/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "LaunchDarkly",
+	"include": [
+		{
+			"name": "LaunchDarkly",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/launchdarkly/master/_listings/launchdarkly/apis.yaml"
+		}
+	]
+}
